@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Machine.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SystemManag.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Machin.h" />
+    <ClInclude Include="SystemManag.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="info.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
