@@ -14,6 +14,7 @@ int main() {
 	printf("Обычный конструктор с параметрами: \n");
 	char stuff[50]="derevo", form[50]="krug";
 	double length=2, width=3;
+	create_machine(&p, true, stuff, form, length, width);
 	display_machine(p);
 	system("pause");
 	system("cls");
